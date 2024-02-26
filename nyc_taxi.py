@@ -98,7 +98,7 @@ def nyc_taxi_yellow():
         ('airport_fee', pa.float64())
     ])
 
-    for year, months in reversed(YM_PAIRS):
+    for year, months in YM_PAIRS:
 
         url = f'{ORIGIN_URL}/yellow_tripdata_{year}-{months:02d}.parquet'
 
