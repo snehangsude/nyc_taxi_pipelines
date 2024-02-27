@@ -11,10 +11,10 @@ import os
 import sys
 import dlt
 import logging
-import requests
 import pyarrow as pa
 import pyarrow.parquet as pq
 from datetime import datetime
+from dlt.sources.helpers import requests
 from tenacity import retry, stop_after_attempt, wait_fixed
 
 # Create .logs folder if it doesn't exist
@@ -223,11 +223,11 @@ def nyc_taxi_hire():
 if __name__ == "__main__":
     time1 = datetime.now()
     pipeline = dlt.pipeline(
-        export_schema_path=dlt.config.value,
-        import_schema_path=dlt.config.value,
-        pipeline_name=dlt.config.value, 
-        destination=dlt.config.value, 
-        dataset_name=dlt.config.value, 
+        export_schema_path=dlt.config["runtime.export_schema_path"],
+        import_schema_path=dlt.config["runtime.import_schema_path"],
+        pipeline_name=dlt.config["runtime.pipeline_name"],
+        destination=dlt.config["runtime.destination"],
+        dataset_name=dlt.config["runtime.dataset_name"],
         progress="log"
     )
     load_info = pipeline.run(nyc_taxi_source())

@@ -11,4 +11,15 @@ start_year = 2019
 end_year = 2024  # exclusive of year value, i.e. if you want data till 2023 provide value as 2024
 pipeline_name = "nyc_taxi"
 dataset_name = "nyc_taxi_data"
-destination = "duckdb"
+destination = "bigquery"
+
+[data_writer]
+buffer_max_items = 100000  
+file_max_bytes = 50000000  
+
+[normalize]
+workers = 5 
+pool_type = "process"
+
+[load]
+workers = 12 
