@@ -37,6 +37,11 @@ The module can be used to extract and load NYC taxi trip data into a data wareho
 - Run the main script `nyc_taxi.py` to start the ETL process.
 - Monitor the logs in `.logs/nyc_taxi.log` to track the progress and status of the ETL process.
 
+> If you are trying to push to BigQuery you will need to set your environment variable with the below command:
+```
+export GOOGLE_APPLICATION_CREDENTIALS=/path/to/file/credentials.json 
+```
+
 ## Contributing
 
 Contributions to this project are welcome! Please follow these guidelines when contributing:
