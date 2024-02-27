@@ -48,7 +48,7 @@ Contributions to this project are welcome! Please follow these guidelines when c
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/snehangsude/nyc_taxi_pipelines?tab=MIT-1-ov-file) file for details.
 
 ## Contact
 
