@@ -1,0 +1,42 @@
+version: 2
+
+macros:
+  - name: get_payment_type
+    description: >
+      This macro receives a payment type and returns the corresponding description.
+    arguments:
+      - name: payment_type
+        type: int
+        description: >
+          payment_type value.
+          Must be one of the accepted values, otherwise the macro will return null.
+
+  - name: get_vendor_name
+    description: >
+      This macro receives a vendor id and returns the corresponding vendor name.
+    arguments:
+      - name: vendor_id
+        type: int
+        description: >
+          vendor_name value.
+          Must be one of the accepted values, otherwise the macro will return null.
+
+  - name: get_ratecode_type
+    description: >
+      This macro receives a ratecode id and returns the corresponding ratecode type.
+    arguments:
+      - name: ratecode_id
+        type: int
+        description: >
+          ratecode_type value.
+          Must be one of the accepted values, otherwise the macro will return null.
+
+  - name: get_trip_type
+    description: >
+      This macro receives a trip type and returns the corresponding trip type name.
+    arguments:
+      - name: trip_type
+        type: int
+        description: >
+          trip_type value.
+          Must be one of the accepted values, otherwise the macro will return null.
