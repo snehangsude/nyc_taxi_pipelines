@@ -4,7 +4,7 @@
     )
 }}
 
-with trip_data as (
+with green_trip_data as (
     select 
         *
         ,row_number() over(partition by vendor_id, lpep_pickup_datetime) as rnum
@@ -47,13 +47,12 @@ select
     ,cast(total_amount as numeric) as total_amount
     ,store_and_fwd_flag as server_connection
 
-
     -- aggregration
     ,{{ dbt_utils.safe_add(["extra", "mta_tax", "tip_amount", "tolls_amount", "ehail_fee", "improvement_surcharge"]) }} as addon_fees
 
 
 from 
-    trip_data
+    green_trip_data
 where
     rnum = 1
 

@@ -4,7 +4,7 @@
     )
 }}
 
-with trip_data as (
+with yellow_trip_data as (
     select 
         *
         ,row_number() over(partition by vendor_id, tpep_pickup_datetime) as rnum
@@ -25,6 +25,8 @@ select
     ,{{ dbt.safe_cast("pu_location_id", api.Column.translate_type("integer")) }} as pu_location_id
     ,{{ dbt.safe_cast("do_location_id", api.Column.translate_type("integer")) }} as do_location_id
     ,{{ dbt.safe_cast("passenger_count", api.Column.translate_type("integer")) }} as passenger_count
+    ,cast(1 as numeric) as trip_type
+    ,'Empty' as trip_type_description
     ,coalesce({{ dbt.safe_cast("payment_type", api.Column.translate_type("integer")) }} , 0) as payment_type
     ,{{ get_payment_type("payment_type") }} as payment_type_description
     
@@ -33,7 +35,6 @@ select
     ,cast(tpep_dropoff_datetime as timestamp) as dropoff_datetime
 
     -- numeric
-    ,1 as trip_type
     ,cast(trip_distance as numeric) as trip_distance
     ,cast(fare_amount as numeric) as fare_amount
     ,cast(extra as numeric) as extra
@@ -45,11 +46,11 @@ select
     ,cast(total_amount as numeric) as total_amount
     ,store_and_fwd_flag as server_connection
 
-    --aggregration
+    -- aggregration
     ,{{ dbt_utils.safe_add(["extra", "mta_tax", "tip_amount", "tolls_amount", "improvement_surcharge"]) }} as addon_fees
 
 from 
-    trip_data
+    yellow_trip_data
 where
     rnum = 1
 
