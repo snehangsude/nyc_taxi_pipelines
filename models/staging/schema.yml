@@ -1,0 +1,7 @@
+sources:
+  - name: staging
+    database: dtc-de-course-0001
+    schema: nyc_taxi_data
+    tables:
+      - name: green_taxi_trips
+      - name: yellow_taxi_trips
