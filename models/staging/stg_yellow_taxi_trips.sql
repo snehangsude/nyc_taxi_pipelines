@@ -47,7 +47,7 @@ select
     ,store_and_fwd_flag as server_connection
 
     -- aggregration
-    ,{{ dbt_utils.safe_add(["extra", "mta_tax", "tip_amount", "tolls_amount", "improvement_surcharge"]) }} as addon_fees
+    ,ROUND({{ dbt_utils.safe_add(["extra", "mta_tax", "tip_amount", "tolls_amount", "improvement_surcharge"]) }}, 2) as addon_fees
 
 from 
     yellow_trip_data
