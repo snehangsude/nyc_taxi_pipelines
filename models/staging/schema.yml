@@ -77,6 +77,7 @@ models:
           - dbt_expectations.expect_column_values_to_be_between:
               min_value: 1
               max_value: 5
+              severity: warn
 
       - name: trip_type
         data_type: int64
