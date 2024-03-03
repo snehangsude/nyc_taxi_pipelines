@@ -41,6 +41,7 @@ models:
               min_value: 1
               max_value: 7
               inclusive: true
+              severity: warn
 
       - name: ratecode_type
         data_type: string
@@ -124,6 +125,7 @@ models:
               min_value: 1
               max_value: 7
               inclusive: true
+              severity: warn
 
       - name: payment_type_description
         data_type: string
