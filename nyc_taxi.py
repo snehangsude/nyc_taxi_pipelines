@@ -11,6 +11,7 @@ import os
 import sys
 import dlt
 import logging
+import argparse
 import pyarrow as pa
 import pyarrow.parquet as pq
 from datetime import datetime
@@ -30,8 +31,15 @@ logging.basicConfig(
 )
 
 
+parser = argparse.ArgumentParser(description="Arguments for data processing process.")
+parser.add_argument("--year", type=str, default=2023, required=True, help="Default value for year to ingest data for.")
+parser.add_argument("--taxi", type=str, default='G', required=True, help="Value of taxi type.'G' for green.'Y' for yellow.'H' for hire.")
+args = parser.parse_args()
+
+
 ORIGIN_URL = dlt.config["runtime.origin_url"]
-YM_PAIRS= [(year, month) for year in range(dlt.config["runtime.start_year"], dlt.config["runtime.end_year"]) for month in range(1, 13)]
+YM_PAIRS= [(args.year, month) for month in range(1, 13)]
+
 
 
 @retry(stop=stop_after_attempt(5), wait=wait_fixed(2))
@@ -51,24 +59,25 @@ def fetch_data(url):
 
 
 @dlt.source
-def nyc_taxi_source():
+def nyc_taxi_source(taxi):
     """
     Data source function for NYC taxi data.
     Yields:
         callable: Functions to extract different types of NYC taxi data.
     """
-    return [
-        nyc_taxi_yellow,
-        # nyc_taxi_green,
-        # nyc_taxi_hire
-    ]
+    if taxi.upper() == 'G':
+        return [nyc_taxi_green]
+    elif taxi.upper() == 'Y':
+        return [nyc_taxi_yellow]
+    elif taxi.upper() == "H":
+        return [nyc_taxi_hire]
 
 
 
 @dlt.resource(
     table_name= 'yellow_taxi_trips',
     write_disposition="append", 
-    schema_contract={"data_type": "discard_value", "columns": "evolve"}
+    schema_contract={"data_type": "evolve", "columns": "evolve"}
 )
 def nyc_taxi_yellow():
     """
@@ -118,7 +127,7 @@ def nyc_taxi_yellow():
 @dlt.resource(
     table_name= 'green_taxi_trips',
     write_disposition="append", 
-    schema_contract={"data_type": "discard_value", "columns": "evolve"}
+    schema_contract={"data_type": "evolve", "columns": "evolve"}
 )
 def nyc_taxi_green():
     """
@@ -169,7 +178,7 @@ def nyc_taxi_green():
 @dlt.resource(
     table_name= 'hire_taxi_trips',
     write_disposition="append", 
-    schema_contract={"data_type": "discard_value", "columns": "evolve"}
+    schema_contract={"data_type": "evolve", "columns": "evolve"}
 )
 def nyc_taxi_hire():
     """
@@ -230,7 +239,7 @@ if __name__ == "__main__":
         dataset_name=dlt.config["runtime.dataset_name"],
         progress="log"
     )
-    load_info = pipeline.run(nyc_taxi_source())
+    load_info = pipeline.run(nyc_taxi_source(args.taxi))
     
     logging.info(load_info)
     logging.info(f"Total time taken: {datetime.now() - time1}")
