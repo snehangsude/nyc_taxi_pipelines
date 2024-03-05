@@ -18,23 +18,22 @@ from datetime import datetime
 from dlt.sources.helpers import requests
 from tenacity import retry, stop_after_attempt, wait_fixed
 
+parser = argparse.ArgumentParser(description="Arguments for data processing process.")
+parser.add_argument("--year", type=str, default=2023, required=True, help="Default value for year to ingest data for.")
+parser.add_argument("--taxi", type=str, default='G', required=True, help="Value of taxi type.'G' for green.'Y' for yellow.'H' for hire.")
+args = parser.parse_args()
+
 # Create .logs folder if it doesn't exist
 if not os.path.exists(dlt.config["runtime.logs_path"].split("/")[0]):
     os.makedirs(dlt.config["runtime.logs_path"].split("/")[0])
 
 
 logging.basicConfig(
-    filename=dlt.config["runtime.logs_path"],
+    filename=dlt.config["runtime.logs_path"] + f"{args.taxi}_nyc_taxi_{args.year}.log",
     filemode= 'w',
     level=logging.INFO, 
     format='%(asctime)s - %(levelname)s - %(message)s'
 )
-
-
-parser = argparse.ArgumentParser(description="Arguments for data processing process.")
-parser.add_argument("--year", type=str, default=2023, required=True, help="Default value for year to ingest data for.")
-parser.add_argument("--taxi", type=str, default='G', required=True, help="Value of taxi type.'G' for green.'Y' for yellow.'H' for hire.")
-args = parser.parse_args()
 
 
 ORIGIN_URL = dlt.config["runtime.origin_url"]

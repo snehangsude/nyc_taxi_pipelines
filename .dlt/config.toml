@@ -6,7 +6,7 @@ export_schema_path="schemas/export"
 import_schema_path="schemas/import"
 
 origin_url = "https://d37ci6vzurychx.cloudfront.net/trip-data"
-logs_path = ".logs/nyc_taxi.log"
+logs_path = ".logs/"
 pipeline_name = "nyc_taxi"
 dataset_name = "nyc_taxi_data"
 destination = "bigquery"

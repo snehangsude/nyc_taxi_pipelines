@@ -13,7 +13,7 @@ END_YEAR=2023
 
 echo "==================================="
 echo -e "${BASIC}Running Year-wise (2019-2023)${NC}"
-echo -e "To edit the range change parameters in ${POINT}run.sh${NC} file"
+echo -e "To edit the range change parameters in ${POINT}run*.sh${NC} file"
 
 
 ## YELLOW
