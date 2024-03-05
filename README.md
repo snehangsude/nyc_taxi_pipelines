@@ -6,6 +6,12 @@ This module contains functions for extracting, transforming, and loading NYC tax
 
 The code provides a set of functions to retrieve, process, and store data from various NYC taxi trip datasets. It includes functions for extracting data, normalizing the schema, transforming it into a standardized format, and loading it into a data warehouse for further analysis. 
 
+
+## Dashboard
+
+You can view the Dashboard *(v1)* here: [View Dashboard](https://lookerstudio.google.com/reporting/f51c6640-4907-4b41-a1fd-72d2f32768dc)  
+
+
 ## Features
 
 - Extracts and transforms yellow, green, and fhvhv taxi trip data.
@@ -86,10 +92,6 @@ You can view the [DBT Docs](https://cloud.getdbt.com/accounts/248130/jobs/543466
 
 ![Data Lineage diagram](sample/lineage_image.png)
 
-
-## Dashboard
-
-You can view the Dashboard *(v1)* here: [View Dashboard](https://lookerstudio.google.com/reporting/f51c6640-4907-4b41-a1fd-72d2f32768dc)  
 
 ## License
 
