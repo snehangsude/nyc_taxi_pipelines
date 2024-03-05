@@ -87,6 +87,9 @@ You can view the [DBT Docs](https://cloud.getdbt.com/accounts/248130/jobs/543466
 ![Data Lineage diagram](sample/lineage_image.png)
 
 
+## Dashboard
+
+You can view the Dashboard *(v1)* here: [View Dashboard](https://lookerstudio.google.com/reporting/f51c6640-4907-4b41-a1fd-72d2f32768dc)  
 
 ## License
 
