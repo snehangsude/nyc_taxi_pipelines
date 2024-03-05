@@ -80,7 +80,7 @@ export GOOGLE_APPLICATION_CREDENTIALS=/path/to/file/credentials.json
 
 ### DBT Documentation
     
-You can view the [DBT Docs](https://cloud.getdbt.com/accounts/248130/jobs/543466/docs/#!/overview) here.
+You can view the [DBT Docs](https://cloud.getdbt.com/accounts/248130/jobs/543466/docs/#!/overview) here. *(You need an DBT account to view docs and test cases)*
 
 ### DBT pipeline
 
