@@ -6,9 +6,7 @@ export_schema_path="schemas/export"
 import_schema_path="schemas/import"
 
 origin_url = "https://d37ci6vzurychx.cloudfront.net/trip-data"
-logs_path = ".logs/nyc_taxi.log"
-start_year = 2019
-end_year = 2024  # exclusive of year value, i.e. if you want data till 2023 provide value as 2024
+logs_path = ".logs/"
 pipeline_name = "nyc_taxi"
 dataset_name = "nyc_taxi_data"
 destination = "bigquery"

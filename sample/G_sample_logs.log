@@ -1,0 +1,441 @@
+===================================
+Running Year-wise (2019-2023)
+To edit the range change parameters in run.sh file
+===================================
+Running DLT process: Green Taxi Data
+YEAR 2019
+
+--------------------------- Extract nyc_taxi_source ----------------------------
+Resources: 0/1 (0.0%) | Time: 4.44s | Rate: 0.00/s
+green_taxi_trips: 672105  | Time: 0.00s | Rate: 59978993402.55/s
+Memory usage: 326.75 MB (59.60%) | CPU usage: 0.00%
+
+--------------------------- Extract nyc_taxi_source ----------------------------
+Resources: 0/1 (0.0%) | Time: 7.54s | Rate: 0.00/s
+green_taxi_trips: 1287699  | Time: 3.11s | Rate: 414609.60/s
+Memory usage: 418.46 MB (60.30%) | CPU usage: 0.00%
+
+--------------------------- Extract nyc_taxi_source ----------------------------
+Resources: 0/1 (0.0%) | Time: 11.65s | Rate: 0.00/s
+green_taxi_trips: 1930762  | Time: 7.22s | Rate: 267587.49/s
+Memory usage: 428.89 MB (60.40%) | CPU usage: 0.00%
+
+--------------------------- Extract nyc_taxi_source ----------------------------
+Resources: 0/1 (0.0%) | Time: 15.53s | Rate: 0.00/s
+green_taxi_trips: 2498614  | Time: 11.09s | Rate: 225301.25/s
+Memory usage: 421.22 MB (60.40%) | CPU usage: 0.00%
+
+--------------------------- Extract nyc_taxi_source ----------------------------
+Resources: 0/1 (0.0%) | Time: 21.30s | Rate: 0.00/s
+green_taxi_trips: 3044066  | Time: 16.86s | Rate: 180500.71/s
+Memory usage: 413.71 MB (60.50%) | CPU usage: 0.00%
+
+--------------------------- Extract nyc_taxi_source ----------------------------
+Resources: 0/1 (0.0%) | Time: 24.78s | Rate: 0.00/s
+green_taxi_trips: 3550304  | Time: 20.35s | Rate: 174482.13/s
+Memory usage: 402.23 MB (60.30%) | CPU usage: 0.00%
+
+--------------------------- Extract nyc_taxi_source ----------------------------
+Resources: 0/1 (0.0%) | Time: 28.17s | Rate: 0.00/s
+green_taxi_trips: 4021047  | Time: 23.73s | Rate: 169425.39/s
+Memory usage: 389.55 MB (60.20%) | CPU usage: 0.00%
+
+--------------------------- Extract nyc_taxi_source ----------------------------
+Resources: 0/1 (0.0%) | Time: 31.52s | Rate: 0.00/s
+green_taxi_trips: 4470742  | Time: 27.08s | Rate: 165105.10/s
+Memory usage: 380.34 MB (60.20%) | CPU usage: 0.00%
+
+--------------------------- Extract nyc_taxi_source ----------------------------
+Resources: 0/1 (0.0%) | Time: 35.34s | Rate: 0.00/s
+green_taxi_trips: 4919805  | Time: 30.90s | Rate: 159194.47/s
+Memory usage: 378.86 MB (60.20%) | CPU usage: 0.00%
+
+--------------------------- Extract nyc_taxi_source ----------------------------
+Resources: 0/1 (0.0%) | Time: 38.63s | Rate: 0.00/s
+green_taxi_trips: 5396191  | Time: 34.19s | Rate: 157828.96/s
+Memory usage: 385.21 MB (60.20%) | CPU usage: 0.00%
+
+--------------------------- Extract nyc_taxi_source ----------------------------
+Resources: 0/1 (0.0%) | Time: 41.76s | Rate: 0.00/s
+green_taxi_trips: 5845691  | Time: 37.32s | Rate: 156644.87/s
+Memory usage: 384.73 MB (60.30%) | CPU usage: 0.00%
+
+--------------------------- Extract nyc_taxi_source ----------------------------
+Resources: 0/1 (0.0%) | Time: 44.53s | Rate: 0.00/s
+green_taxi_trips: 6300985  | Time: 40.09s | Rate: 157166.32/s
+Memory usage: 381.61 MB (60.20%) | CPU usage: 0.00%
+
+--------------------------- Extract nyc_taxi_source ----------------------------
+Resources: 1/1 (100.0%) | Time: 44.53s | Rate: 0.02/s
+green_taxi_trips: 6300985  | Time: 40.09s | Rate: 157153.47/s
+Memory usage: 350.56 MB (60.00%) | CPU usage: 0.00%
+
+--------------------------- Extract nyc_taxi_source ----------------------------
+Resources: 1/1 (100.0%) | Time: 0.00s | Rate: 288.35/s
+_dlt_pipeline_state: 1  | Time: 0.00s | Rate: 771.30/s
+Memory usage: 350.81 MB (60.00%) | CPU usage: 0.00%
+
+--------------- Normalize nyc_taxi_source in 1709579365.5758758 ----------------
+Files: 4/4 (100.0%) | Time: 0.37s | Rate: 10.93/s
+Items: 6300986  | Time: 0.37s | Rate: 17213602.70/s
+Memory usage: 337.36 MB (60.00%) | CPU usage: 0.00%
+
+------------------ Load nyc_taxi_source in 1709579365.5758758 ------------------
+Jobs: 0/4 (0.0%) | Time: 0.00s | Rate: 0.00/s
+Memory usage: 187.36 MB (59.00%) | CPU usage: 0.00%
+
+------------------ Load nyc_taxi_source in 1709579365.5758758 ------------------
+Jobs: 3/4 (75.0%) | Time: 4.93s | Rate: 0.61/s
+Memory usage: 189.33 MB (59.00%) | CPU usage: 0.00%
+
+------------------ Load nyc_taxi_source in 1709579365.5758758 ------------------
+Jobs: 4/4 (100.0%) | Time: 8.43s | Rate: 0.47/s
+Memory usage: 189.33 MB (59.10%) | CPU usage: 0.00%
+
+------------------ Load nyc_taxi_source in 1709579365.5758758 ------------------
+Jobs: 4/4 (100.0%) | Time: 8.43s | Rate: 0.47/s
+Memory usage: 189.33 MB (59.10%) | CPU usage: 0.00%
+
+------------------ Load nyc_taxi_source in 1709579365.5758758 ------------------
+Memory usage: 189.85 MB (59.00%) | CPU usage: 0.00%
+
+YEAR 2020
+
+--------------------------- Extract nyc_taxi_source ----------------------------
+Resources: 0/1 (0.0%) | Time: 3.88s | Rate: 0.00/s
+green_taxi_trips: 447770  | Time: 0.00s | Rate: 34779324112.59/s
+Memory usage: 280.04 MB (60.00%) | CPU usage: 0.00%
+
+--------------------------- Extract nyc_taxi_source ----------------------------
+Resources: 0/1 (0.0%) | Time: 6.49s | Rate: 0.00/s
+green_taxi_trips: 846402  | Time: 2.61s | Rate: 323915.36/s
+Memory usage: 342.06 MB (59.80%) | CPU usage: 0.00%
+
+--------------------------- Extract nyc_taxi_source ----------------------------
+Resources: 0/1 (0.0%) | Time: 8.61s | Rate: 0.00/s
+green_taxi_trips: 1069898  | Time: 4.73s | Rate: 226280.67/s
+Memory usage: 284.50 MB (59.40%) | CPU usage: 0.00%
+
+--------------------------- Extract nyc_taxi_source ----------------------------
+Resources: 0/1 (0.0%) | Time: 9.72s | Rate: 0.00/s
+green_taxi_trips: 1105542  | Time: 5.84s | Rate: 189209.80/s
+Memory usage: 269.03 MB (59.30%) | CPU usage: 0.00%
+
+--------------------------- Extract nyc_taxi_source ----------------------------
+Resources: 0/1 (0.0%) | Time: 10.90s | Rate: 0.00/s
+green_taxi_trips: 1162903  | Time: 7.02s | Rate: 165636.90/s
+Memory usage: 217.06 MB (59.00%) | CPU usage: 0.00%
+
+--------------------------- Extract nyc_taxi_source ----------------------------
+Resources: 0/1 (0.0%) | Time: 12.48s | Rate: 0.00/s
+green_taxi_trips: 1226013  | Time: 8.60s | Rate: 142534.75/s
+Memory usage: 229.55 MB (59.10%) | CPU usage: 0.00%
+
+--------------------------- Extract nyc_taxi_source ----------------------------
+Resources: 0/1 (0.0%) | Time: 13.70s | Rate: 0.00/s
+green_taxi_trips: 1298271  | Time: 9.83s | Rate: 132119.27/s
+Memory usage: 222.00 MB (59.10%) | CPU usage: 0.00%
+
+--------------------------- Extract nyc_taxi_source ----------------------------
+Resources: 0/1 (0.0%) | Time: 15.04s | Rate: 0.00/s
+green_taxi_trips: 1379334  | Time: 11.16s | Rate: 123600.63/s
+Memory usage: 241.51 MB (59.10%) | CPU usage: 0.00%
+
+--------------------------- Extract nyc_taxi_source ----------------------------
+Resources: 0/1 (0.0%) | Time: 16.39s | Rate: 0.00/s
+green_taxi_trips: 1467321  | Time: 12.52s | Rate: 117239.60/s
+Memory usage: 228.54 MB (59.10%) | CPU usage: 0.00%
+
+--------------------------- Extract nyc_taxi_source ----------------------------
+Resources: 0/1 (0.0%) | Time: 18.21s | Rate: 0.00/s
+green_taxi_trips: 1562441  | Time: 14.33s | Rate: 109007.76/s
+Memory usage: 234.48 MB (59.20%) | CPU usage: 0.00%
+
+--------------------------- Extract nyc_taxi_source ----------------------------
+Resources: 0/1 (0.0%) | Time: 24.14s | Rate: 0.00/s
+green_taxi_trips: 1651046  | Time: 20.26s | Rate: 81491.63/s
+Memory usage: 224.69 MB (59.40%) | CPU usage: 0.00%
+
+--------------------------- Extract nyc_taxi_source ----------------------------
+Resources: 0/1 (0.0%) | Time: 26.48s | Rate: 0.00/s
+green_taxi_trips: 1734176  | Time: 22.61s | Rate: 76708.64/s
+Memory usage: 240.49 MB (59.20%) | CPU usage: 0.00%
+
+--------------------------- Extract nyc_taxi_source ----------------------------
+Resources: 1/1 (100.0%) | Time: 26.49s | Rate: 0.04/s
+green_taxi_trips: 1734176  | Time: 22.61s | Rate: 76702.24/s
+Memory usage: 240.49 MB (59.20%) | CPU usage: 0.00%
+
+---------------- Normalize nyc_taxi_source in 1709579478.376081 ----------------
+Files: 1/1 (100.0%) | Time: 0.34s | Rate: 2.93/s
+Items: 1734176  | Time: 0.34s | Rate: 5075324.94/s
+Memory usage: 241.09 MB (59.30%) | CPU usage: 0.00%
+
+------------------ Load nyc_taxi_source in 1709579478.376081 -------------------
+Jobs: 0/1 (0.0%) | Time: 0.00s | Rate: 0.00/s
+Memory usage: 194.24 MB (59.20%) | CPU usage: 0.00%
+
+------------------ Load nyc_taxi_source in 1709579478.376081 -------------------
+Jobs: 1/1 (100.0%) | Time: 5.81s | Rate: 0.17/s
+Memory usage: 194.24 MB (59.30%) | CPU usage: 0.00%
+
+------------------ Load nyc_taxi_source in 1709579478.376081 -------------------
+Jobs: 1/1 (100.0%) | Time: 5.82s | Rate: 0.17/s
+Memory usage: 194.24 MB (59.30%) | CPU usage: 0.00%
+
+------------------ Load nyc_taxi_source in 1709579478.376081 -------------------
+Memory usage: 194.43 MB (59.40%) | CPU usage: 0.00%
+
+YEAR 2021
+
+--------------------------- Extract nyc_taxi_source ----------------------------
+Resources: 0/1 (0.0%) | Time: 1.88s | Rate: 0.00/s
+green_taxi_trips: 76518  | Time: 0.00s | Rate: 10352895273.29/s
+Memory usage: 187.21 MB (59.30%) | CPU usage: 0.00%
+
+--------------------------- Extract nyc_taxi_source ----------------------------
+Resources: 0/1 (0.0%) | Time: 3.07s | Rate: 0.00/s
+green_taxi_trips: 141090  | Time: 1.19s | Rate: 118601.85/s
+Memory usage: 215.20 MB (59.50%) | CPU usage: 0.00%
+
+--------------------------- Extract nyc_taxi_source ----------------------------
+Resources: 0/1 (0.0%) | Time: 4.31s | Rate: 0.00/s
+green_taxi_trips: 224917  | Time: 2.43s | Rate: 92502.57/s
+Memory usage: 222.16 MB (59.40%) | CPU usage: 0.00%
+
+--------------------------- Extract nyc_taxi_source ----------------------------
+Resources: 0/1 (0.0%) | Time: 5.62s | Rate: 0.00/s
+green_taxi_trips: 311858  | Time: 3.75s | Rate: 83269.68/s
+Memory usage: 228.33 MB (59.40%) | CPU usage: 0.00%
+
+--------------------------- Extract nyc_taxi_source ----------------------------
+Resources: 0/1 (0.0%) | Time: 6.72s | Rate: 0.00/s
+green_taxi_trips: 400038  | Time: 4.84s | Rate: 82625.34/s
+Memory usage: 226.86 MB (59.40%) | CPU usage: 0.00%
+
+--------------------------- Extract nyc_taxi_source ----------------------------
+Resources: 0/1 (0.0%) | Time: 8.03s | Rate: 0.00/s
+green_taxi_trips: 486775  | Time: 6.15s | Rate: 79103.26/s
+Memory usage: 223.04 MB (59.50%) | CPU usage: 0.00%
+
+--------------------------- Extract nyc_taxi_source ----------------------------
+Resources: 0/1 (0.0%) | Time: 9.29s | Rate: 0.00/s
+green_taxi_trips: 570466  | Time: 7.41s | Rate: 77005.34/s
+Memory usage: 226.11 MB (60.10%) | CPU usage: 0.00%
+
+--------------------------- Extract nyc_taxi_source ----------------------------
+Resources: 0/1 (0.0%) | Time: 10.59s | Rate: 0.00/s
+green_taxi_trips: 653965  | Time: 8.71s | Rate: 75088.67/s
+Memory usage: 238.83 MB (60.00%) | CPU usage: 0.00%
+
+--------------------------- Extract nyc_taxi_source ----------------------------
+Resources: 0/1 (0.0%) | Time: 12.05s | Rate: 0.00/s
+green_taxi_trips: 749674  | Time: 10.17s | Rate: 73708.25/s
+Memory usage: 223.28 MB (59.80%) | CPU usage: 0.00%
+
+--------------------------- Extract nyc_taxi_source ----------------------------
+Resources: 0/1 (0.0%) | Time: 14.46s | Rate: 0.00/s
+green_taxi_trips: 968794  | Time: 12.58s | Rate: 77006.76/s
+Memory usage: 244.70 MB (59.60%) | CPU usage: 0.00%
+
+--------------------------- Extract nyc_taxi_source ----------------------------
+Resources: 0/1 (0.0%) | Time: 16.10s | Rate: 0.00/s
+green_taxi_trips: 1068755  | Time: 14.22s | Rate: 75148.45/s
+Memory usage: 228.55 MB (59.50%) | CPU usage: 0.00%
+
+--------------------------- Extract nyc_taxi_source ----------------------------
+Resources: 1/1 (100.0%) | Time: 16.17s | Rate: 0.06/s
+green_taxi_trips: 1068755  | Time: 14.29s | Rate: 74795.83/s
+Memory usage: 237.31 MB (59.60%) | CPU usage: 0.00%
+
+--------------- Normalize nyc_taxi_source in 1709579531.2188349 ----------------
+Files: 1/1 (100.0%) | Time: 0.34s | Rate: 2.90/s
+Items: 1068755  | Time: 0.34s | Rate: 3104418.01/s
+Memory usage: 226.83 MB (59.50%) | CPU usage: 0.00%
+
+------------------ Load nyc_taxi_source in 1709579531.2188349 ------------------
+Jobs: 0/1 (0.0%) | Time: 0.00s | Rate: 0.00/s
+Memory usage: 188.94 MB (59.10%) | CPU usage: 0.00%
+
+------------------ Load nyc_taxi_source in 1709579531.2188349 ------------------
+Jobs: 1/1 (100.0%) | Time: 4.78s | Rate: 0.21/s
+Memory usage: 188.94 MB (59.10%) | CPU usage: 0.00%
+
+------------------ Load nyc_taxi_source in 1709579531.2188349 ------------------
+Jobs: 1/1 (100.0%) | Time: 4.79s | Rate: 0.21/s
+Memory usage: 188.94 MB (59.10%) | CPU usage: 0.00%
+
+------------------ Load nyc_taxi_source in 1709579531.2188349 ------------------
+Memory usage: 189.12 MB (59.10%) | CPU usage: 0.00%
+
+YEAR 2022
+
+--------------------------- Extract nyc_taxi_source ----------------------------
+Resources: 0/1 (0.0%) | Time: 1.37s | Rate: 0.00/s
+green_taxi_trips: 62495  | Time: 0.00s | Rate: 11396653412.17/s
+Memory usage: 184.57 MB (59.20%) | CPU usage: 0.00%
+
+--------------------------- Extract nyc_taxi_source ----------------------------
+Resources: 0/1 (0.0%) | Time: 2.69s | Rate: 0.00/s
+green_taxi_trips: 131894  | Time: 1.32s | Rate: 100155.81/s
+Memory usage: 213.35 MB (59.30%) | CPU usage: 0.00%
+
+--------------------------- Extract nyc_taxi_source ----------------------------
+Resources: 0/1 (0.0%) | Time: 3.90s | Rate: 0.00/s
+green_taxi_trips: 210431  | Time: 2.53s | Rate: 83229.53/s
+Memory usage: 219.36 MB (59.30%) | CPU usage: 0.00%
+
+--------------------------- Extract nyc_taxi_source ----------------------------
+Resources: 0/1 (0.0%) | Time: 5.23s | Rate: 0.00/s
+green_taxi_trips: 286567  | Time: 3.85s | Rate: 74351.26/s
+Memory usage: 227.88 MB (59.30%) | CPU usage: 0.00%
+
+--------------------------- Extract nyc_taxi_source ----------------------------
+Resources: 0/1 (0.0%) | Time: 6.45s | Rate: 0.00/s
+green_taxi_trips: 363458  | Time: 5.07s | Rate: 71649.02/s
+Memory usage: 221.67 MB (59.20%) | CPU usage: 0.00%
+
+--------------------------- Extract nyc_taxi_source ----------------------------
+Resources: 0/1 (0.0%) | Time: 7.79s | Rate: 0.00/s
+green_taxi_trips: 437176  | Time: 6.41s | Rate: 68182.18/s
+Memory usage: 231.21 MB (59.30%) | CPU usage: 0.00%
+
+--------------------------- Extract nyc_taxi_source ----------------------------
+Resources: 0/1 (0.0%) | Time: 8.93s | Rate: 0.00/s
+green_taxi_trips: 501368  | Time: 7.55s | Rate: 66370.77/s
+Memory usage: 235.25 MB (59.20%) | CPU usage: 0.00%
+
+--------------------------- Extract nyc_taxi_source ----------------------------
+Resources: 0/1 (0.0%) | Time: 10.16s | Rate: 0.00/s
+green_taxi_trips: 567297  | Time: 8.79s | Rate: 64560.05/s
+Memory usage: 221.20 MB (59.40%) | CPU usage: 0.00%
+
+--------------------------- Extract nyc_taxi_source ----------------------------
+Resources: 0/1 (0.0%) | Time: 12.20s | Rate: 0.00/s
+green_taxi_trips: 636328  | Time: 10.82s | Rate: 58791.36/s
+Memory usage: 218.18 MB (59.40%) | CPU usage: 0.00%
+
+--------------------------- Extract nyc_taxi_source ----------------------------
+Resources: 0/1 (0.0%) | Time: 13.45s | Rate: 0.00/s
+green_taxi_trips: 705650  | Time: 12.08s | Rate: 58413.45/s
+Memory usage: 231.77 MB (59.50%) | CPU usage: 0.00%
+
+--------------------------- Extract nyc_taxi_source ----------------------------
+Resources: 0/1 (0.0%) | Time: 14.65s | Rate: 0.00/s
+green_taxi_trips: 767963  | Time: 13.28s | Rate: 57827.21/s
+Memory usage: 220.32 MB (59.40%) | CPU usage: 0.00%
+
+--------------------------- Extract nyc_taxi_source ----------------------------
+Resources: 0/1 (0.0%) | Time: 15.94s | Rate: 0.00/s
+green_taxi_trips: 840402  | Time: 14.56s | Rate: 57711.78/s
+Memory usage: 225.71 MB (59.50%) | CPU usage: 0.00%
+
+--------------------------- Extract nyc_taxi_source ----------------------------
+Resources: 1/1 (100.0%) | Time: 15.94s | Rate: 0.06/s
+green_taxi_trips: 840402  | Time: 14.56s | Rate: 57705.27/s
+Memory usage: 220.59 MB (59.50%) | CPU usage: 0.00%
+
+--------------- Normalize nyc_taxi_source in 1709579567.9912183 ----------------
+Files: 1/1 (100.0%) | Time: 0.35s | Rate: 2.85/s
+Items: 840402  | Time: 0.35s | Rate: 2394953.04/s
+Memory usage: 212.34 MB (59.40%) | CPU usage: 0.00%
+
+------------------ Load nyc_taxi_source in 1709579567.9912183 ------------------
+Jobs: 0/1 (0.0%) | Time: 0.00s | Rate: 0.00/s
+Memory usage: 186.94 MB (59.10%) | CPU usage: 0.00%
+
+------------------ Load nyc_taxi_source in 1709579567.9912183 ------------------
+Jobs: 1/1 (100.0%) | Time: 3.53s | Rate: 0.28/s
+Memory usage: 186.94 MB (59.10%) | CPU usage: 0.00%
+
+------------------ Load nyc_taxi_source in 1709579567.9912183 ------------------
+Jobs: 1/1 (100.0%) | Time: 3.54s | Rate: 0.28/s
+Memory usage: 186.94 MB (59.10%) | CPU usage: 0.00%
+
+------------------ Load nyc_taxi_source in 1709579567.9912183 ------------------
+Memory usage: 188.01 MB (59.10%) | CPU usage: 0.00%
+
+YEAR 2023
+
+--------------------------- Extract nyc_taxi_source ----------------------------
+Resources: 0/1 (0.0%) | Time: 1.43s | Rate: 0.00/s
+green_taxi_trips: 68211  | Time: 0.00s | Rate: 7528886056.42/s
+Memory usage: 187.43 MB (59.60%) | CPU usage: 0.00%
+
+--------------------------- Extract nyc_taxi_source ----------------------------
+Resources: 0/1 (0.0%) | Time: 2.82s | Rate: 0.00/s
+green_taxi_trips: 133020  | Time: 1.39s | Rate: 95384.61/s
+Memory usage: 215.85 MB (59.70%) | CPU usage: 0.00%
+
+--------------------------- Extract nyc_taxi_source ----------------------------
+Resources: 0/1 (0.0%) | Time: 4.14s | Rate: 0.00/s
+green_taxi_trips: 205064  | Time: 2.71s | Rate: 75749.81/s
+Memory usage: 219.70 MB (59.70%) | CPU usage: 0.00%
+
+--------------------------- Extract nyc_taxi_source ----------------------------
+Resources: 0/1 (0.0%) | Time: 5.43s | Rate: 0.00/s
+green_taxi_trips: 270456  | Time: 4.00s | Rate: 67589.47/s
+Memory usage: 213.11 MB (59.30%) | CPU usage: 0.00%
+
+--------------------------- Extract nyc_taxi_source ----------------------------
+Resources: 0/1 (0.0%) | Time: 6.70s | Rate: 0.00/s
+green_taxi_trips: 339630  | Time: 5.27s | Rate: 64467.93/s
+Memory usage: 223.50 MB (59.20%) | CPU usage: 0.00%
+
+--------------------------- Extract nyc_taxi_source ----------------------------
+Resources: 0/1 (0.0%) | Time: 8.00s | Rate: 0.00/s
+green_taxi_trips: 405180  | Time: 6.57s | Rate: 61635.37/s
+Memory usage: 228.90 MB (59.30%) | CPU usage: 0.00%
+
+--------------------------- Extract nyc_taxi_source ----------------------------
+Resources: 0/1 (0.0%) | Time: 9.22s | Rate: 0.00/s
+green_taxi_trips: 466523  | Time: 7.79s | Rate: 59908.88/s
+Memory usage: 222.26 MB (59.20%) | CPU usage: 0.00%
+
+--------------------------- Extract nyc_taxi_source ----------------------------
+Resources: 0/1 (0.0%) | Time: 10.45s | Rate: 0.00/s
+green_taxi_trips: 527172  | Time: 9.03s | Rate: 58411.53/s
+Memory usage: 219.84 MB (59.30%) | CPU usage: 0.00%
+
+--------------------------- Extract nyc_taxi_source ----------------------------
+Resources: 0/1 (0.0%) | Time: 12.50s | Rate: 0.00/s
+green_taxi_trips: 658820  | Time: 11.07s | Rate: 59525.50/s
+Memory usage: 227.14 MB (59.30%) | CPU usage: 0.00%
+
+--------------------------- Extract nyc_taxi_source ----------------------------
+Resources: 0/1 (0.0%) | Time: 13.75s | Rate: 0.00/s
+green_taxi_trips: 722845  | Time: 12.32s | Rate: 58674.12/s
+Memory usage: 223.68 MB (59.30%) | CPU usage: 0.00%
+
+--------------------------- Extract nyc_taxi_source ----------------------------
+Resources: 0/1 (0.0%) | Time: 15.14s | Rate: 0.00/s
+green_taxi_trips: 787060  | Time: 13.71s | Rate: 57418.71/s
+Memory usage: 228.82 MB (59.30%) | CPU usage: 0.00%
+
+--------------------------- Extract nyc_taxi_source ----------------------------
+Resources: 1/1 (100.0%) | Time: 15.14s | Rate: 0.07/s
+green_taxi_trips: 787060  | Time: 13.71s | Rate: 57411.88/s
+Memory usage: 223.48 MB (59.30%) | CPU usage: 0.00%
+
+--------------- Normalize nyc_taxi_source in 1709579601.7677019 ----------------
+Files: 1/1 (100.0%) | Time: 0.34s | Rate: 2.90/s
+Items: 787060  | Time: 0.34s | Rate: 2281992.34/s
+Memory usage: 207.38 MB (59.30%) | CPU usage: 0.00%
+
+------------------ Load nyc_taxi_source in 1709579601.7677019 ------------------
+Jobs: 0/1 (0.0%) | Time: 0.00s | Rate: 0.00/s
+Memory usage: 183.18 MB (59.30%) | CPU usage: 0.00%
+
+------------------ Load nyc_taxi_source in 1709579601.7677019 ------------------
+Jobs: 1/1 (100.0%) | Time: 3.51s | Rate: 0.28/s
+Memory usage: 183.18 MB (59.30%) | CPU usage: 0.00%
+
+------------------ Load nyc_taxi_source in 1709579601.7677019 ------------------
+Jobs: 1/1 (100.0%) | Time: 3.52s | Rate: 0.28/s
+Memory usage: 183.18 MB (59.30%) | CPU usage: 0.00%
+
+------------------ Load nyc_taxi_source in 1709579601.7677019 ------------------
+Memory usage: 184.23 MB (59.20%) | CPU usage: 0.00%
+
+DONE DLT process: Green Taxi Data
+===================================
